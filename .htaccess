@@ -3,6 +3,17 @@ RewriteEngine On
 
 # Allow Installatron requests
 RewriteCond %{REQUEST_FILENAME} deleteme\.\w+\.php
-RewriteRule (.*) - [L] 
+RewriteRule (.*) - [L]
 
-RewriteRule ^ index.php [L]
+# Redirect everything except actual files/folders to /public
+RewriteCond %{REQUEST_URI} !^/public
+RewriteRule ^(.*)$ public/$1 [L]
+
+# 🔒 Security rules (safe for shared hosting)
+<FilesMatch "^(\.env|artisan|composer\.(json|lock)|package\.json|webpack\.mix\.js|vite\.config\.js)$">
+    Require all denied
+</FilesMatch>
+
+RedirectMatch 403 ^/vendor/
+RedirectMatch 403 ^/storage/
+RedirectMatch 403 ^/resources/
