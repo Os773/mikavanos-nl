@@ -10,11 +10,11 @@ yarn-error.log
 
 
 /.phpunit.cache
-/public/build
 /public/hot
 /public/storage
 /storage/*.key
 /storage/pail
+.editorconfig
 .env
 .env.backup
 .env.production
