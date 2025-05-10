@@ -1,0 +1,21 @@
+.aside {
+    background-color: #625437bc;
+    padding: 2%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 5px;
+    margin: 0px;
+    width: 100%;
+}
+
+h1 {
+    display: inline-flexbox;
+}
+
+/*Specifically for the pictures at the bottom of the page*/
+.suunn {
+    display: inline-block;
+    width: 30%;
+}

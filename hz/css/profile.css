@@ -1,0 +1,54 @@
+/*For the picures across the page*/
+.toddler {
+    float: right;
+    padding: 20px;
+}
+
+.watervid {
+    float: left;
+    padding: 20px;
+}
+
+.snapqr {
+    float: right;
+    padding: 20px;
+}
+
+/*For my list of interests, which is in a really weird format for some reason.*/
+dt {
+    font-weight: bold;
+}
+
+summary {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/*For the list of social media at the bottom*/
+.social-media {
+    width: 200px;
+    text-align: center;
+    left: 40%;
+    position: relative;
+}
+
+/*JUST for the table of personality things.*/
+table {
+    display: inline-flex;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #06004d67;
+}
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: 5px;
+}
+
+th {
+    background-color: #a29dc9;
+    color: black;
+}

@@ -1,0 +1,145 @@
+/*Header + Navigation*/
+nav {
+    a {
+        margin: 2px;
+    }
+    a:link,
+    a:visited {
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 8px;
+    }
+
+    a:hover,
+    a:active {
+        background-color: #1777a3;
+        color: black;
+    }
+}
+.active {
+    background-color: #1714c5;
+}
+
+.inactive {
+    background-color: #07004d;
+}
+
+.logoDiv {
+    position: relative;
+    left: 5px;
+    float: left;
+    display: flex;
+    height: 100%;
+}
+.logo {
+    height: 50px;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+    background-color: #292752b6;
+    position: fixed;
+    padding-top: 10px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin: 0%;
+    margin-bottom: 2%;
+    display: block;
+}
+
+/*Body*/
+body {
+    text-align: center;
+    overflow-y: scroll;
+    color: #ffffff;
+    background-color: black;
+    font-family: "Courier New", Courier, monospace;
+    background-image: url("../media/background.jpg");
+    background-position: 0%;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+main {
+    margin-top: 100px;
+    background-image: url("../media/logo.png");
+}
+
+aside {
+    flex: 1;
+    height: auto;
+}
+
+section {
+    margin: auto;
+    background-color: #292752b6;
+    width: 80%;
+    padding: 10px;
+    display: inline-flex;
+}
+
+article {
+    width: auto;
+    text-align: center;
+    background-color: #603762c5;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 30px;
+}
+
+.articles {
+    flex: 5;
+}
+
+/*text specific */
+p {
+    padding: 10px;
+}
+
+h1,
+h2 {
+    text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+summary {
+    color: #ddb967;
+    text-shadow: 2px 2px black;
+}
+
+h5 {
+    text-decoration: none;
+    text-shadow: none;
+}
+
+/* link modification */
+a:link,
+a:visited,
+a:active {
+    color: #ddb967;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #17a398;
+    text-decoration: underline;
+}
+
+button {
+    background-color: #07004d;
+    color: white;
+    padding: 10px;
+    font-family: monospace;
+    text-align: center;
+    cursor: pointer;
+}

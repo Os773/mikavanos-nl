@@ -1,0 +1,20 @@
+section {
+    display: flex;
+}
+.blogs-all {
+    flex: 3;
+}
+
+/*Specifically for the menu linking all the blogs.*/
+.blog-menu-div {
+    flex: 1;
+}
+
+.blog-menu {
+    background-color: #625437bc;
+    padding: 2%;
+}
+
+ul {
+    text-decoration: none;
+}

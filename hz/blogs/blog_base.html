@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="description" content="Blog Page of Mika's HZ project" />
+        <meta name="author" content="Mika van Os" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title>Blog feed</title>
+        <link rel="stylesheet" href="../css/base.css" />
+        <link rel="stylesheet" href="../css/blog.css" />
+    </head>
+
+    <body>
+        <script src="nav.js"></script>
+        <div id="navigation" class="header">
+            <div class="logoDiv">
+                <a target="_blank" href="https://www.suunn.nl"
+                    ><img class="logo" src="https://suunn.nl/images/r2d2.png"
+                /></a>
+            </div>
+            <nav>
+                <a class="inactive" href="../index.html">Home page</a>
+                <a class="inactive" href="../profile.html">About me</a>
+                <a class="active" href="../blog_home.html">Blog</a>
+                <a class="inactive" href="../faq.html">FAQ</a>
+                <a class="inactive" href="../dashboard.html">Dashboard</a>
+            </nav>
+        </div>
+        <main>
+            <section>
+                <div class="blog-menu-div">
+                    <div class="blog-menu">
+                        <ul>
+                            <li>
+                                <a href="../blog_home.html">Main blog feed</a>
+                            </li>
+                            <li>
+                                <a href="study_motivation_blog.html"
+                                    >Study Motivation</a
+                                >
+                            </li>
+                            <li>
+                                <a href="swot_analysis_blog.html"
+                                    >SWOT Analysis</a
+                                >
+                            </li>
+                            <li>
+                                <a href="code_experience_blog.html"
+                                    >Programming Experience</a
+                                >
+                            </li>
+                            <li>
+                                <a href="first_feedback_blog.html"
+                                    >PCO Feedback</a
+                                >
+                            </li>
+                            <li>
+                                <a href="aousd_blog.html">A note on AOUSD</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="blogs-all">
+                    <article>
+                        <div id="blog-text" onload="finalAssessment()">
+                        </div>
+                        <button
+                            onclick="window.location.href='../blog_home.html';"
+                            >Back to main feed</button
+                        >
+                    </article>
+                </div>
+            </section>
+        </main>
+        <script src="../scripts/blogFunctions.js"></script>
+    </body>
+</html>

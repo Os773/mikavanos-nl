@@ -1,0 +1,90 @@
+.aside {
+    width: auto;
+    height: auto;
+    text-align: left;
+    background-color: #625437bc;
+    padding: 2%;
+}
+
+/*Specifically for the legend and grade-color system*/
+.legend {
+    margin: 2px;
+    padding: 2px;
+}
+
+.danger {
+    background-color: red;
+}
+
+.warning {
+    background-color: orange;
+}
+
+.safe {
+    background-color: green;
+}
+
+.recalculate {
+    margin-bottom: 10px;
+}
+
+/*For the table that calculates NBSA and the script behind it*/
+.ectable {
+    border: 1px solid black;
+    width: 300px;
+}
+
+.nbsa-title {
+    border: none;
+    border-left: 1px solid black;
+    width: 40%;
+}
+.nbsa {
+    border: none;
+    border-left: 1px solid black;
+}
+
+/*TABLE STUFF*/
+table {
+    display: inline-flex;
+    text-align: center;
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 800px;
+    background-color: #06004d67;
+}
+
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    flex: 1;
+}
+
+th {
+    background-color: #ccc9e7;
+    color: black;
+}
+
+tr:hover {
+    background-color: #07004d;
+    color: white;
+}
+
+/*To determine set widths and visibilities for table rows.*/
+.row-small {
+    width: 80px;
+}
+
+.row-big {
+    width: 320px;
+}
+
+.invisible {
+    display: none;
+}
+
+.no-border {
+    border: none;
+}
