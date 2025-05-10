@@ -8,7 +8,7 @@
 
     <title>{{ $title }}</title>
 </head>
-<body>
+<body class="bg-blue-950 text-white">
 <x-layout.header/>
 <main>
 {{ $slot }}
