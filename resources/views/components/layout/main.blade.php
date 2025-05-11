@@ -10,7 +10,7 @@
 </head>
 <body class="bg-blue-950 text-white">
 <x-layout.header/>
-<main>
+<main class="m-2">
 {{ $slot }}
 </main>
 <x-layout.footer/>
